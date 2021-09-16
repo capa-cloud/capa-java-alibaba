@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>capa-alibaba-parent</artifactId>
+        <groupId>group.rxcloud</groupId>
+        <version>1.0.0.RELEASE</version>
+    </parent>
+
+    <artifactId>sdk-spi-alibaba</artifactId>
+    <name>capa-sdk-spi-alibaba</name>
+    <packaging>jar</packaging>
+
+    <properties>
+        <aliyun-java-sdk-core.version>4.5.2</aliyun-java-sdk-core.version>
+    </properties>
+
+    <dependencies>
+        <!-- Capa's core SDK with all features. -->
+        <dependency>
+            <groupId>group.rxcloud</groupId>
+            <artifactId>capa-sdk-spi</artifactId>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>com.aliyun</groupId>-->
+<!--            <artifactId>aliyun-java-sdk-core</artifactId>-->
+<!--            <version>${aliyun-java-sdk-core.version}</version>-->
+<!--        </dependency>-->
+    </dependencies>
+
+</project>
